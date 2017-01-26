@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/huangbeijing"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:text="关于游戏" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="这个山寨版飞机大战是仿照全民飞机大战制作的，其中很多素材来自网上，主要制作目的是对于知识点进行复习，游戏过程中的背景音乐来自全民飞机大战，主菜单背景乐来自星际穿越，开场动画图片为自己合成" />
+
+    <Button
+        android:id="@+id/tuichu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/buttonbg1"
+        android:text="退出" />
+
+</RelativeLayout>
